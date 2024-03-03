@@ -12,12 +12,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write name: ");
         String name = scanner.nextLine();
-        Days[] days = {Days.valueOf(name)};
-        for (Days day : days) {
-            System.out.println(day);
 
-        }
+
+        System.out.println(Days.valueOf(name).getTranslation());
+    }
 
 
     }
-}

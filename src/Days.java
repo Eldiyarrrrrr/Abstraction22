@@ -9,8 +9,14 @@ public enum Days {
 
     private String name;
 
+
+
     Days(String name) {
         this.name = name;
+    }
+
+    String getTranslation(){
+        return name;
     }
 
 
